@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.demo{
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;;
+}
+
+.demo > img {
+    width: 250px;
+    height: 250px;
+}
+
+.demo-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card-display {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+}
+
+.quote-container {
+
+}
+
+button {
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+}
